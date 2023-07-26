@@ -253,30 +253,42 @@
             </div>
         </section>
 
-
-
-
         <!-- deal of the day end -->
+
+
+
 
         <!-- deal cards start -->
 
         <section class="mt-12 mb-16 flex">
-            <div class="flex w-[342px]">
-                <div class=" p-12 items-center text-center card  bg-[#FFF] rounded-lg shadow-xl ">
-                    <img src="images/fruit6.png" alt="" />
 
-                    <div>
-                        <div class="card-body">
-                            <h2>
-                                12.90$ - 18.85$
-                            </h2>
+            <!-- *1st card -->
+            <div>
+                <div class="flex w-[342px]">
 
-                            <hr>
+                    <!-- card image part -->
 
-                            <p>Apples</p>
+                    <div class=" p-12 items-center text-center card  bg-[#FFF] rounded-lg shadow-xl ">
+                        <figure><img src="images/fruit6.png" alt="Shoes" /></figure>
 
-                        </div>
                         <div>
+                            <!-- *card text part -->
+                            <div class="card-body">
+                                <h2>
+                                    12.90$ - 18.85$
+                                </h2>
+
+                                <hr>
+
+                                <p>Apples</p>
+
+                            </div>
+                            <!-- *card text part -->
+
+                            <!-- card rating part -->
+
+
+
                             <div class="rating">
                                 <input type="radio" name="rating-2"
                                     class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
@@ -286,55 +298,412 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                             </div>
+
+
+
+
+
+
+                            <!-- card rating part -->
+
+                            <!-- card details text -->
+                            <div>
+                                <div><button class="text-[#F85559] mt-10"
+                                        onclick="my_modal_1.showModal()">Details</button></div>
+
+
+                                <!-- card details text -->
+
+                                <!-- card popup image & text -->
+                                <dialog id="my_modal_1" class="modal">
+                                    <form method="dialog" class="modal-box">
+
+                                        <div class="flex justify-center mt-10">
+                                            <img src="images/fruit6.png" alt="">
+                                        </div>
+
+                                        <h3 class="font-extrabold text-4xl">Apples</h3>
+                                        <p class="py-4 text-[#12121299]">Professional employees are there for you to
+                                            pick the most amazing
+                                            and fresh fruits.</p>
+                                        <!-- card popup image & text            -->
+
+
+                                        <!-- card popup rating -->
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
+                                                checked />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- card popup rating -->
+
+                                        <!-- card popup buttons -->
+
+
+                                        <div class="flex justify-center gap-8 mt-10 mb-10">
+                                            <button
+                                                class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
+                                            <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy
+                                                Now</button>
+                                        </div>
+
+                                        <!-- card popup buttons -->
+
+
+
+
+
+
+                                    </form>
+                                    <form method="dialog" class="modal-backdrop">
+                                        <button>close</button>
+                                    </form>
+                                </dialog>
+                            </div>
+
                         </div>
-                        <div>
-
-                            <button class="text-[#F85559] mt-10" onclick="my_modal_2.showModal()">Details</button>
-                            <dialog id="my_modal_2" class="modal">
-                                <form method="dialog" class="modal-box">
-
-                                    <div class="flex justify-center mt-10">
-                                        <img src="images/fruit8.png" alt="">
-                                    </div>
-                                    
-                                    <h3 class="font-extrabold text-4xl">Red Dragon</h3>
-                                    <p class="py-4 text-[#12121299]">Professional employees are there for you to pick the most amazing
-                                        and fresh fruits.</p>
-                                    <div class="rating">
-                                        <input type="radio" name="rating-2"
-                                            class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
-                                        <input type="radio" name="rating-2"
-                                            class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
-                                            checked />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    </div>
-
-                                    <div class="flex justify-center gap-8 mt-10 mb-10">                                   
-                                        <button class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
-                                        <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy Now</button>
-                                    </div>
-
-
-
-
-
-
-                                </form>
-                                <form method="dialog" class="modal-backdrop">
-                                    <button>close</button>
-                                </form>
-                            </dialog>
-                        </div>
-
                     </div>
                 </div>
+
             </div>
+
+            <!-- *2nd card -->
+            <div>
+                <div class="flex w-[342px]">
+
+                    <!-- card image part -->
+
+                    <div class=" p-12 items-center text-center card  bg-[#FFF] rounded-lg shadow-xl ">
+                        <figure><img src="images/fruit7.png" alt="Shoes" /></figure>
+
+                        <div>
+                            <!-- *card text part -->
+                            <div class="card-body">
+                                <h2>
+                                    12.90$ - 18.85$
+                                </h2>
+
+                                <hr>
+
+                                <p>Orange</p>
+
+                            </div>
+                            <!-- *card text part -->
+
+                            <!-- card rating part -->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                            </div>
+                            <!-- card rating part -->
+
+                            <!-- card details text -->
+                            <div>
+                                <div><button class="text-[#F85559] mt-10"
+                                        onclick="my_modal_2.showModal()">Details</button></div>
+
+
+                                <!-- card details text -->
+
+                                <!-- card popup image & text -->
+                                <dialog id="my_modal_2" class="modal">
+                                    <form method="dialog" class="modal-box">
+
+                                        <div class="flex justify-center mt-10">
+                                            <img src="images/fruit7.png" alt="">
+                                        </div>
+
+                                        <h3 class="font-extrabold text-4xl">Orange</h3>
+                                        <p class="py-4 text-[#12121299]">Professional employees are there for you to
+                                            pick the most amazing
+                                            and fresh fruits.</p>
+                                        <!-- card popup image & text            -->
+
+
+                                        <!-- card popup rating -->
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
+                                                checked />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- card popup rating -->
+
+                                        <!-- card popup buttons -->
+
+
+                                        <div class="flex justify-center gap-8 mt-10 mb-10">
+                                            <button
+                                                class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
+                                            <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy
+                                                Now</button>
+                                        </div>
+
+                                        <!-- card popup buttons -->
+
+
+
+
+
+
+                                    </form>
+                                    <form method="dialog" class="modal-backdrop">
+                                        <button>close</button>
+                                    </form>
+                                </dialog>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 3rd card -->
+            <div>
+                <div class="flex w-[342px]">
+
+                    <!-- card image part -->
+
+                    <div class=" p-12 items-center text-center card  bg-[#FFF] rounded-lg shadow-xl ">
+                        <figure><img src="images/fruit8.png" alt="Shoes" /></figure>
+
+                        <div>
+                            <!-- *card text part -->
+                            <div class="card-body">
+                                <h2>
+                                    12.90$ - 18.85$
+                                </h2>
+
+                                <hr>
+
+                                <p>Red Dragon</p>
+
+                            </div>
+                            <!-- *card text part -->
+
+                            <!-- card rating part -->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                            </div>
+                            <!-- card rating part -->
+
+                            <!-- card details text -->
+                            <div>
+                                <div><button class="text-[#F85559] mt-10"
+                                        onclick="my_modal_3.showModal()">Details</button></div>
+
+
+                                <!-- card details text -->
+
+                                <!-- card popup image & text -->
+                                <dialog id="my_modal_3" class="modal">
+                                    <form method="dialog" class="modal-box">
+
+                                        <div class="flex justify-center mt-10">
+                                            <img src="images/fruit8.png" alt="">
+                                        </div>
+
+                                        <h3 class="font-extrabold text-4xl">Red Dragon</h3>
+                                        <p class="py-4 text-[#12121299]">Professional employees are there for you to
+                                            pick the most amazing
+                                            and fresh fruits.</p>
+                                        <!-- card popup image & text            -->
+
+
+                                        <!-- card popup rating -->
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
+                                                checked />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- card popup rating -->
+
+                                        <!-- card popup buttons -->
+
+
+                                        <div class="flex justify-center gap-8 mt-10 mb-10">
+                                            <button
+                                                class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
+                                            <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy
+                                                Now</button>
+                                        </div>
+
+                                        <!-- card popup buttons -->
+
+
+
+
+
+
+                                    </form>
+                                    <form method="dialog" class="modal-backdrop">
+                                        <button>close</button>
+                                    </form>
+                                </dialog>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 4th card -->
+            <div>
+                <div class="flex w-[342px]">
+
+                    <!-- card image part -->
+
+                    <div class=" p-12 items-center text-center card  bg-[#FFF] rounded-lg shadow-xl ">
+                        <figure><img src="images/fruit9.png" alt="Shoes" /></figure>
+
+                        <div>
+                            <!-- *card text part -->
+                            <div class="card-body">
+                                <h2>
+                                    12.90$ - 18.85$
+                                </h2>
+
+                                <hr>
+
+                                <p>Banana</p>
+
+                            </div>
+                            <!-- *card text part -->
+
+                            <!-- card rating part -->
+                            <div>
+                                <div class="rating">
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                    <input type="radio" name="rating-2"
+                                        class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                            </div>
+                            <!-- card rating part -->
+
+                            <!-- card details text -->
+                            <div>
+                                <div><button class="text-[#F85559] mt-10"
+                                        onclick="my_modal_4.showModal()">Details</button></div>
+
+
+                                <!-- card details text -->
+
+                                <!-- card popup image & text -->
+                                <dialog id="my_modal_4" class="modal">
+                                    <form method="dialog" class="modal-box">
+
+                                        <div class="flex justify-center mt-10">
+                                            <img src="images/fruit9.png" alt="">
+                                        </div>
+
+                                        <h3 class="font-extrabold text-4xl">Banana</h3>
+                                        <p class="py-4 text-[#12121299]">Professional employees are there for you to
+                                            pick the most amazing
+                                            and fresh fruits.</p>
+                                        <!-- card popup image & text            -->
+
+
+                                        <!-- card popup rating -->
+                                        <div class="rating">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
+                                                checked />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- card popup rating -->
+
+                                        <!-- card popup buttons -->
+
+
+                                        <div class="flex justify-center gap-8 mt-10 mb-10">
+                                            <button
+                                                class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
+                                            <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy
+                                                Now</button>
+                                        </div>
+
+                                        <!-- card popup buttons -->
+
+
+
+
+
+
+                                    </form>
+                                    <form method="dialog" class="modal-backdrop">
+                                        <button>close</button>
+                                    </form>
+                                </dialog>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
+        <section>
+            <div class="flex justify-center">
+                <button class=" text-xl font-extrabold m-5 btn text-white border-0 rounded-lg bg-[#F85559]">Shop All</button>
+            </div>
+            
+        </section>
 
         <!-- deal cards end -->
+
 
 
     </main>
