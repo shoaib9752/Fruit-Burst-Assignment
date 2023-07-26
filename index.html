@@ -22,10 +22,6 @@
         .font-lato {
             font-family: 'Open Sans', sans-serif;
         }
-
-
-       
-
     </style>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
@@ -271,32 +267,65 @@
 
                     <div>
                         <div class="card-body">
-                            <h2 >
+                            <h2>
                                 12.90$ - 18.85$
                             </h2>
-                            
+
                             <hr>
 
                             <p>Apples</p>
-                            
+
                         </div>
                         <div>
                             <div class="rating">
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" checked />
+                                <input type="radio" name="rating-2"
+                                    class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                <input type="radio" name="rating-2"
+                                    class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" checked />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                              </div>
+                            </div>
                         </div>
                         <div>
-                            <div class="dropdown dropdown-right dropdown-end">
-                                <label tabindex="0" class=" m-1">Details</label>
-                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                  <li><a>Item 1</a></li>
-                                  <li><a>Item 2</a></li>
-                                </ul>
-                              </div>
+
+                            <button class="text-[#F85559] mt-10" onclick="my_modal_2.showModal()">Details</button>
+                            <dialog id="my_modal_2" class="modal">
+                                <form method="dialog" class="modal-box">
+
+                                    <div class="flex justify-center mt-10">
+                                        <img src="images/fruit8.png" alt="">
+                                    </div>
+                                    
+                                    <h3 class="font-extrabold text-4xl">Red Dragon</h3>
+                                    <p class="py-4 text-[#12121299]">Professional employees are there for you to pick the most amazing
+                                        and fresh fruits.</p>
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2"
+                                            class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]" />
+                                        <input type="radio" name="rating-2"
+                                            class="mask mask-star-2 bg-gradient-to-r from-[#F85559] to-[#FBC0A8]"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+
+                                    <div class="flex justify-center gap-8 mt-10 mb-10">                                   
+                                        <button class="btn btn-outline btn-error text-[#F85559] font-extrabold">Close</button>
+                                        <button class="btn text-white border-0 rounded-lg bg-[#F85559]">Buy Now</button>
+                                    </div>
+
+
+
+
+
+
+                                </form>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
                         </div>
 
                     </div>
